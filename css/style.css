@@ -1,0 +1,16 @@
+body {
+    background: #a9d7d1;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#form-outer {
+    background: #FAFAFA;
+}

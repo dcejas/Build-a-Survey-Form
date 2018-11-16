@@ -1,16 +1,65 @@
 body {
     background: #a9d7d1;
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 320px;
 }
 
-#title {
+header {
+    margin-top: 1%;
+    margin-bottom: 2%;
     text-align: center;
+}
+
+#allContent {
+    margin-left: 18%;
+    margin-right: 18%;
 }
 
 #description {
     text-align: center;
+    padding-top: 3%;
 }
 
 #form-outer {
     background: #FAFAFA;
+}
+
+#survey-form {
+    display: block;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.rightSide {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+#submitButton {
+    position: center;
+}
+
+#submit {
+    background-color: #59ACDF;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+    padding: 1px 7px 2px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    position: center;
 }
